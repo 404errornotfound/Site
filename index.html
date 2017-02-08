@@ -1,25 +1,50 @@
-<!DOCTYPE html>
-<html lang="en-AU/">
 <head>
 <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
 h1 {
 	color: black;
-	font-family: Arial Unicode MS;
+	font-family: Calibri;
 	font-size: 100%;
 }
 h2 {
 	color: black;
-	font-family: Arial Unicode MS;
+	font-family: Calibri;
 	font-size: 100%;
 }
 p {
 	color: black;
-	font-family: Arial Unicode MS;
+	font-family: Calibri;
 	font-size: 100%;
 }
 a {
-	color: blue;
-	font-family: Arial Unicode MS;
+	font-family: Calibri;
 	font-size: 100%;
 }
 a:link    {color:blue; background-color:transparent; text-decoration:none}
@@ -30,12 +55,17 @@ a:active  {color:blue; background-color:transparent; text-decoration:underline}
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 <title>Uber</title>
-<img src="http://abovethecrowd.com/wp-content/uploads/2014/03/New-Logo-Vertical-Dark.jpg" alt="https://www.uber.com/en-AU/" width="250" height="250">
 </head>
 <body>
-<h1>The Information System</h1>
 
-<img src="https://sch.thesupplierclearinghouse.com/includes/nextgen/main/images/busybox-bg.gif" alt="Gears" style="width:150px;height:150px;">
+<ul>
+  <li><a class="active" href="file:///G:/index.html">Home</a></li>
+  <li><a href="file:///G:/system.html">The Information System</a></li>
+</ul>
+
+<img src="http://abovethecrowd.com/wp-content/uploads/2014/03/New-Logo-Vertical-Dark.jpg" alt="https://www.uber.com/en-AU/" width="250" height="250">
+
+<h1>The Information System</h1>
 
 <p>placeholder</p>
 <p>placeholder</p>
